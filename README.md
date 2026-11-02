@@ -5,6 +5,11 @@ sim-to-sim validation and root-cause analysis pipeline.**
 
 [中文说明](README.zh-CN.md)
 
+> **This repository hosts two projects.**
+> The main one is the humanoid work below.
+> The second is **[robot-arm-calibration](robot-arm-calibration/)** — a ROS 2 camera-intrinsic and
+> eye-in-hand calibration toolchain for a 6-DoF arm, plus a parametrically modelled gripper.
+
 ![Five motions](assets/five_motion_montage.gif)
 
 *Five learned motion policies (goal / kick1015 / bigkick / kungfu / dance) replaying in MuJoCo from

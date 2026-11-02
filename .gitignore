@@ -11,6 +11,10 @@ logs/
 *.onnx.data
 *.rknn
 
+# Exception: tiny calibration artifacts that document the data format
+!robot-arm-calibration/data/*.npz
+!robot-arm-calibration/data/*.npy
+
 # OS / editor
 .DS_Store
 Thumbs.db
